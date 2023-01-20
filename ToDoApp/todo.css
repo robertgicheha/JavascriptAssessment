@@ -1,0 +1,49 @@
+* {
+  margin: 20px;
+  padding: 10px;
+  /* box-sizing: border-box; */
+  /* border: 2px solid burlywood; */
+}
+
+.body {
+  border: 2px solid black;
+}
+.div-container {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  padding: 5px;
+}
+.label {
+  padding: 5px;
+}
+.div-todo {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: flex-start;
+}
+#SubmitBtn {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+#delete-one-todo {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+#delete-all-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+h2{
+    font-size: 20px;
+}

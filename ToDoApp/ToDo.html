@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do App</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1>To-do App</h1>
+    <div class="div-container">
+        <form id="create-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+            <br>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description"></textarea>
+            <br>
+            <label for="date">Expected completion date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <button type="submit" id="SubmitBtn">Create</button>
+        </form>
+        <br>
+        </div>
+        <div class="div-todo">
+            <h2>To-dos:</h2>
+            <ul id="todos">
+            </ul>
+        </div>
+        <br>
+    <button id="delete-one-todo" onclick="deleteTodo()">Delete One</button>
+    <button id="delete-all-button" onclick="deleteAllTodos()">Delete All</button>
+    </div>
+    
+    
+    
+    
+    
+    
+</body>
+<script src="ToDoApp.js"></script>
+</html>
